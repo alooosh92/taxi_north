@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499153194841",
+    "project_id": "taxi-north-5a82e",
+    "storage_bucket": "taxi-north-5a82e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499153194841:android:4b0ee1d19afff578cdc648",
+        "android_client_info": {
+          "package_name": "com.taxi_north.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_gWHBrW0o9J3eLRSzUni2qzYEtZP7sZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

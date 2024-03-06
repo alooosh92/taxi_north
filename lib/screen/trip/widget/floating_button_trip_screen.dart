@@ -2,14 +2,14 @@ import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/trip/trip_controller.dart';
-import 'package:taxi_north/screen/trip/widget/buttom_sheet.dart';
-import 'package:taxi_north/screen/trip/widget/choise_trip.dart';
-import 'package:taxi_north/widget/button_primary.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
-import 'package:taxi_north/widget/text_form_fiels_def.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/trip/trip_controller.dart';
+import 'package:taxi_drive/screen/trip/widget/buttom_sheet.dart';
+import 'package:taxi_drive/screen/trip/widget/choise_trip.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
+import 'package:taxi_drive/widget/text_form_fiels_def.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class FloatingButtonTripScreen extends StatelessWidget {
@@ -96,7 +96,7 @@ class TripAccsseptedUserTrue extends StatelessWidget {
                         'https://wa.me/${tripController.getUserEndLessTrip!.phoneDriver}'));
                   }
                 },
-                text: 'اتصال وتس',
+                text: 'وتس أب',
                 color: ColorManager.white,
                 textStyle: FontManager.w700s15cB,
                 autoSize: Size(MediaQuery.sizeOf(context).width / 2 - 50, 50),
@@ -109,7 +109,7 @@ class TripAccsseptedUserTrue extends StatelessWidget {
                         'tel:${tripController.getUserEndLessTrip!.phoneDriver}'));
                   }
                 },
-                text: 'اتصال هاتفي',
+                text: 'اتصال',
                 color: ColorManager.white,
                 textStyle: FontManager.w700s15cB,
                 autoSize: Size(MediaQuery.sizeOf(context).width / 2 - 50, 50),
@@ -178,7 +178,7 @@ class TripAccsseptedDriverTrue extends StatelessWidget {
                             'https://wa.me/${tripController.getDriverEndLessTrip!.phone}'));
                       }
                     },
-                    text: 'تواصل وتس',
+                    text: 'وتس أب',
                     color: ColorManager.white,
                     textStyle: FontManager.w700s15cB,
                     autoSize:
@@ -192,7 +192,7 @@ class TripAccsseptedDriverTrue extends StatelessWidget {
                             'tel:${tripController.getDriverEndLessTrip!.phone}'));
                       }
                     },
-                    text: 'اتصال هاتفي',
+                    text: 'اتصال',
                     color: ColorManager.white,
                     textStyle: FontManager.w700s15cB,
                     autoSize:

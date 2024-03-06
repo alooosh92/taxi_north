@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/widget/progress_def.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
 
 class MapScreen extends StatelessWidget {
   const MapScreen({super.key, required this.title});

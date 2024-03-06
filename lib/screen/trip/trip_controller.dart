@@ -5,22 +5,22 @@ import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:taxi_north/models/add_trip.dart';
-import 'package:taxi_north/models/add_user_location.dart';
-import 'package:taxi_north/models/get_driver_endless_trip.dart';
-import 'package:taxi_north/models/get_user_endless_trip.dart';
-import 'package:taxi_north/models/send_driver_state.dart';
-import 'package:taxi_north/models/show_trip.dart';
-import 'package:taxi_north/models/trip_model_for_socket.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/hostting.dart';
-import 'package:taxi_north/screen/auth/auth_controller.dart';
-import 'package:taxi_north/screen/trip/widget/buttom_sheet.dart';
-import 'package:taxi_north/screen/trip/widget/map.dart';
+import 'package:taxi_drive/models/add_trip.dart';
+import 'package:taxi_drive/models/add_user_location.dart';
+import 'package:taxi_drive/models/get_driver_endless_trip.dart';
+import 'package:taxi_drive/models/get_user_endless_trip.dart';
+import 'package:taxi_drive/models/send_driver_state.dart';
+import 'package:taxi_drive/models/show_trip.dart';
+import 'package:taxi_drive/models/trip_model_for_socket.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/hostting.dart';
+import 'package:taxi_drive/screen/auth/auth_controller.dart';
+import 'package:taxi_drive/screen/trip/widget/buttom_sheet.dart';
+import 'package:taxi_drive/screen/trip/widget/map.dart';
 import 'package:http/http.dart' as http;
-import 'package:taxi_north/widget/progress_def.dart';
-import 'package:taxi_north/widget/route_sheet.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
+import 'package:taxi_drive/widget/route_sheet.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
 
 class TripController extends GetxController {
   //for map
@@ -212,6 +212,8 @@ class TripController extends GetxController {
           jsonDecode(response.body)['message']
               .toString()
               .contains('selected')) {
+        mark.removeWhere(
+            (element) => element.markerId.value == tripId.toString());
         Get.dialog(AlertDialog(
           actions: [
             ElevatedButton(

@@ -2,12 +2,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/res/key.dart';
-import 'package:taxi_north/screen/auth/auth_controller.dart';
-import 'package:taxi_north/screen/splash/splash.dart';
-import 'package:taxi_north/screen/trip/trip_screen.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/res/key.dart';
+import 'package:taxi_drive/screen/auth/auth_controller.dart';
+import 'package:taxi_drive/screen/splash/splash.dart';
+import 'package:taxi_drive/screen/trip/trip_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Auth extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_north/res/color_manager.dart';
+import 'package:taxi_drive/res/color_manager.dart';
 
 class CheckBoxWithText extends StatefulWidget {
   const CheckBoxWithText({

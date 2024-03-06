@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:taxi_north/models/show_trip.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/trip/trip_controller.dart';
-import 'package:taxi_north/widget/progress_def.dart';
+import 'package:taxi_drive/models/show_trip.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/trip/trip_controller.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
 import '../../widget/drawer_home.dart';
 
 class UserTrip extends StatefulWidget {

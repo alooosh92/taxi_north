@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_north/res/font_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
 
 class RowTextButton extends StatelessWidget {
   const RowTextButton({

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/res/validator_manager.dart';
-import 'package:taxi_north/screen/app_info/app_info.dart';
-import 'package:taxi_north/screen/app_info/app_info_controller.dart';
-import 'package:taxi_north/screen/auth/auth_controller.dart';
-import 'package:taxi_north/screen/auth/page/opt.dart';
-import 'package:taxi_north/screen/auth/widget/row_text_button.dart';
-import 'package:taxi_north/widget/button_primary.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
-import 'package:taxi_north/widget/text_form_fiels_def.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/res/validator_manager.dart';
+import 'package:taxi_drive/screen/app_info/app_info.dart';
+import 'package:taxi_drive/screen/app_info/app_info_controller.dart';
+import 'package:taxi_drive/screen/auth/auth_controller.dart';
+import 'package:taxi_drive/screen/auth/page/opt.dart';
+import 'package:taxi_drive/screen/auth/widget/row_text_button.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
+import 'package:taxi_drive/widget/text_form_fiels_def.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

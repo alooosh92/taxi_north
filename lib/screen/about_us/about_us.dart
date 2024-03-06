@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/about_us/widget/row_icons.dart';
-import 'package:taxi_north/widget/drawer_home.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/about_us/widget/row_icons.dart';
+import 'package:taxi_drive/widget/drawer_home.dart';
 
 class AboutUs extends StatelessWidget {
   const AboutUs({super.key});

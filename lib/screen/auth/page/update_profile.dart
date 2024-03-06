@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/models/update_user.dart';
-import 'package:taxi_north/models/user_register.dart';
-import 'package:taxi_north/res/validator_manager.dart';
-import 'package:taxi_north/screen/auth/auth_controller.dart';
-import 'package:taxi_north/screen/auth/page/opt.dart';
-import 'package:taxi_north/screen/trip/trip_screen.dart';
-import 'package:taxi_north/widget/app_bar_all.dart';
-import 'package:taxi_north/widget/button_primary.dart';
-import 'package:taxi_north/widget/progress_def.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
-import 'package:taxi_north/widget/text_form_fiels_def.dart';
+import 'package:taxi_drive/models/update_user.dart';
+import 'package:taxi_drive/models/user_register.dart';
+import 'package:taxi_drive/res/validator_manager.dart';
+import 'package:taxi_drive/screen/auth/auth_controller.dart';
+import 'package:taxi_drive/screen/auth/page/opt.dart';
+import 'package:taxi_drive/screen/trip/trip_screen.dart';
+import 'package:taxi_drive/widget/app_bar_all.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
+import 'package:taxi_drive/widget/text_form_fiels_def.dart';
 
 class UpdateProfile extends StatelessWidget {
   const UpdateProfile({super.key});

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/models/term.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/auth/page/register.dart';
-import 'package:taxi_north/widget/app_bar_all.dart';
-import 'package:taxi_north/widget/button_primary.dart';
+import 'package:taxi_drive/models/term.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/auth/page/register.dart';
+import 'package:taxi_drive/widget/app_bar_all.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
 
 class AppInfo extends StatefulWidget {
   const AppInfo({

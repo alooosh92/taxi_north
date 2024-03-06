@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_north/res/color_manager.dart';
+import 'package:taxi_drive/res/color_manager.dart';
 
 class FontManager {
   static const TextStyle w600s33cW = TextStyle(
@@ -142,7 +142,7 @@ class FontManager {
     fontSize: 14,
     color: ColorManager.primary,
   );
-  static const TextStyle w700s25cp = TextStyle(
+     static const TextStyle w700s25cp = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 25,
     color: ColorManager.primary,

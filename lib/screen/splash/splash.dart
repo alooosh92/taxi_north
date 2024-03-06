@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/auth/page/login.dart';
-import 'package:taxi_north/screen/trip/trip_controller.dart';
-import 'package:taxi_north/widget/button_primary.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/auth/page/login.dart';
+import 'package:taxi_drive/screen/trip/trip_controller.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

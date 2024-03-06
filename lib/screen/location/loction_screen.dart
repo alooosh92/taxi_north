@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/screen/location/location_controller.dart';
-import 'package:taxi_north/widget/progress_def.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/screen/location/location_controller.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
 
 class LoctionScreen extends StatelessWidget {
   const LoctionScreen({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/screen/trip/widget/header_bottom_sheet.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/screen/trip/widget/header_bottom_sheet.dart';
 
 Future<dynamic> buttomSheet({
   required BuildContext context,

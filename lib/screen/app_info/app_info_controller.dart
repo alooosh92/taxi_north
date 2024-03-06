@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:taxi_north/models/term.dart';
-import 'package:taxi_north/res/hostting.dart';
+import 'package:taxi_drive/models/term.dart';
+import 'package:taxi_drive/res/hostting.dart';
 
 class AppInfoController extends GetxController {
   Future<List<TreamModel>> getTream(int isPrive) async {

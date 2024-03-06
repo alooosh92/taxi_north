@@ -53,10 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD_gWHBrW0o9J3eLRSzUni2qzYEtZP7sZQ',
-    appId: '1:499153194841:android:4b0ee1d19afff578cdc648',
-    messagingSenderId: '499153194841',
-    projectId: 'taxi-north-5a82e',
-    storageBucket: 'taxi-north-5a82e.appspot.com',
+    apiKey: 'AIzaSyCGoCZYf-iAQB9uj5xXBs1jHdSkn8j1f4g',
+    appId: '1:428774060020:android:301c19efd13a1ff658d3a1',
+    messagingSenderId: '428774060020',
+    projectId: 'taxi-606dc',
+    storageBucket: 'taxi-606dc.appspot.com',
   );
 }

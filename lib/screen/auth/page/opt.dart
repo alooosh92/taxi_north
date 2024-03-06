@@ -2,15 +2,15 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_otp_text_field/flutter_otp_text_field.dart';
 import 'package:get/get.dart';
-import 'package:taxi_north/models/verify.dart';
-import 'package:taxi_north/res/color_manager.dart';
-import 'package:taxi_north/res/font_manager.dart';
-import 'package:taxi_north/screen/auth/auth_controller.dart';
-import 'package:taxi_north/screen/auth/widget/row_text_button.dart';
-import 'package:taxi_north/screen/trip/trip_screen.dart';
-import 'package:taxi_north/widget/button_primary.dart';
-import 'package:taxi_north/widget/progress_def.dart';
-import 'package:taxi_north/widget/snackbar_def.dart';
+import 'package:taxi_drive/models/verify.dart';
+import 'package:taxi_drive/res/color_manager.dart';
+import 'package:taxi_drive/res/font_manager.dart';
+import 'package:taxi_drive/screen/auth/auth_controller.dart';
+import 'package:taxi_drive/screen/auth/widget/row_text_button.dart';
+import 'package:taxi_drive/screen/trip/trip_screen.dart';
+import 'package:taxi_drive/widget/button_primary.dart';
+import 'package:taxi_drive/widget/progress_def.dart';
+import 'package:taxi_drive/widget/snackbar_def.dart';
 
 class OptScreen extends StatelessWidget {
   const OptScreen({super.key, required this.phone});

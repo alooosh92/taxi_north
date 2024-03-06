@@ -2,13 +2,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:taxi_north/models/city_info.dart';
-import 'package:taxi_north/models/update_user.dart';
-import 'package:taxi_north/models/user_register.dart';
+import 'package:taxi_drive/models/city_info.dart';
+import 'package:taxi_drive/models/update_user.dart';
+import 'package:taxi_drive/models/user_register.dart';
 import 'package:http/http.dart' as http;
-import 'package:taxi_north/models/user_verify.dart';
-import 'package:taxi_north/models/verify.dart';
-import 'package:taxi_north/res/hostting.dart';
+import 'package:taxi_drive/models/user_verify.dart';
+import 'package:taxi_drive/models/verify.dart';
+import 'package:taxi_drive/res/hostting.dart';
 
 class AuthController extends GetxController {
   UserRegister? user;

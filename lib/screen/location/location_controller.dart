@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:get/get.dart';
-import 'package:taxi_north/models/add_user_location.dart';
+import 'package:taxi_drive/models/add_user_location.dart';
 import 'package:http/http.dart' as http;
-import 'package:taxi_north/res/hostting.dart';
-import 'package:taxi_north/screen/trip/trip_controller.dart';
+import 'package:taxi_drive/res/hostting.dart';
+import 'package:taxi_drive/screen/trip/trip_controller.dart';
 
 class LocationController extends GetxController {
   List<UserLocation> locations = [];

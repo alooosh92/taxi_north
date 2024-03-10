@@ -48,7 +48,7 @@ class Auth extends StatelessWidget {
       }
     });
     return Scaffold(
-      backgroundColor: ColorManager.brown,
+      backgroundColor: ColorManager.lightgreen,
       body: Padding(
         padding: const EdgeInsets.all(0.0),
         child: Stack(
@@ -61,7 +61,7 @@ class Auth extends StatelessWidget {
             ),
             Center(
               child: Image.asset(
-                'lib/asset/images/logo.png',
+                'lib/asset/images/1.png',
                 fit: BoxFit.cover,
               ),
             ),
@@ -73,7 +73,7 @@ class Auth extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Text(
-                    'Taxi',
+                    '',
                     style: FontManager.w600s33cW,
                   ),
                   Text(

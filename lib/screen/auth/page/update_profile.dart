@@ -53,7 +53,7 @@ class UpdateProfile extends StatelessWidget {
                       child: Column(
                         children: [
                           Image.asset(
-                            'lib/asset/images/logo.png',
+                            'lib/asset/images/1.png',
                             fit: BoxFit.cover,
                           ),
                           TextFormFieldRadius(

@@ -3,7 +3,7 @@ import 'package:get_storage/get_storage.dart';
 
 class HosttingTaxi {
   var storeg = GetStorage();
-  static const String host = "https://srv451438.hstgr.cloud";
+  static const String host = "https://62.72.22.182:8090/preview/srv451438.hstgr.cloud/";
   static const String websocket = "ws://srv451438.hstgr.cloud:8443/app/myKey";
   static const String mapKey = "AIzaSyCxsin6TH7ouxNCDVoRp7IJihc4JxThkG8";
   static dynamic openSocket = jsonEncode({

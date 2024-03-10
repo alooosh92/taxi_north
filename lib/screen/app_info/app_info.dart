@@ -41,8 +41,8 @@ class _AppInfoState extends State<AppInfo> {
             child: Column(
               children: [
                 Image.asset(
-                  'lib/asset/images/logo.png',
-                  fit: BoxFit.fill,
+                  'lib/asset/images/2.png',
+                  fit: BoxFit.cover,
                   height: MediaQuery.sizeOf(context).height * 0.2,
                   width: MediaQuery.sizeOf(context).height * 0.3,
                 ),

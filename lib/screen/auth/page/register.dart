@@ -43,7 +43,7 @@ class RegisterScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Image.asset(
-                        'lib/asset/images/logo.png',
+                        'lib/asset/images/2.png',
                         fit: BoxFit.cover,
                       ),
                       const Text(

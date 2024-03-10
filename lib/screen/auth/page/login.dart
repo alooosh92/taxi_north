@@ -33,7 +33,8 @@ class LoginScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Image.asset(
-                    'lib/asset/images/logo.png',
+                    'lib/asset/images/2.png',
+                    width: 300,
                     fit: BoxFit.cover,
                   ),
                   const Text(

@@ -30,7 +30,7 @@ class _RouteSheetState extends State<RouteSheet> {
         child: Column(
           children: [
             const Text(
-              ' نشكركم على اختيار تكسي',
+              '  نشكركم على اختيار تكسي الشمال',
               style: FontManager.w700s25cp,
             ),
             const SizedBox(

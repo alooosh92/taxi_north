@@ -22,7 +22,7 @@ class DrawerHome extends StatelessWidget {
   });
   final _dialog = RatingDialog(
     image: Image.asset(
-      'lib/asset/images/logo.png',
+      'lib/asset/images/2.png',
       width: 60,
     ),
     title: const Text(
@@ -64,7 +64,7 @@ class DrawerHome extends StatelessWidget {
                 ],
               ),
               Image.asset(
-                'lib/asset/images/logo.png',
+                'lib/asset/images/2.png',
                 fit: BoxFit.cover,
               ),
               Text(
@@ -129,7 +129,7 @@ class DrawerHome extends StatelessWidget {
                 icon: Icons.star,
                 press: () =>
                     showDialog(context: context, builder: (context) => _dialog),
-                text: "قيم تطبيق تكسي",
+                text: "قيم تطبيق تكسي الشكال",
               ),
             ],
           ),

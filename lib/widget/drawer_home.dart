@@ -50,88 +50,92 @@ class DrawerHome extends StatelessWidget {
       child: SafeArea(
         child: Padding(
           padding: const EdgeInsets.only(left: 20, right: 20),
-          child: Column(
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  IconButton(
-                      onPressed: () => Get.back(),
-                      icon: const Icon(
-                        Icons.close,
-                        color: ColorManager.white,
-                      )),
-                ],
-              ),
-              Image.asset(
-                'lib/asset/images/2.png',
-                fit: BoxFit.cover,
-              ),
-              Text(
-                authController.user == null ? "" : authController.user!.name,
-                style: FontManager.w500s22cW,
-              ),
-              RowTextPress(
-                icon: Icons.account_box,
-                press: () => Get.to(const UpdateProfile()),
-                text: "حسابي",
-              ),
-              RowTextPress(
-                icon: Icons.account_box,
-                press: () => Get.to(const LoctionScreen()),
-                text: "العناوين المفضلة",
-              ),
-              RowTextPress(
-                icon: Icons.trip_origin,
-                press: () => Get.to(const UserTrip()),
-                text: "رحلاتي",
-              ),
-              RowTextPress(
-                  icon: Icons.private_connectivity_outlined,
-                  press: () async => Get.to(
-                        AppInfo(
-                          tileAppBar: "شروط الاستخدام",
-                          isRegister: false,
-                          list: await appInfoController.getTream(1),
-                        ),
-                      ),
-                  text: "شروط الاستخدام"),
-              RowTextPress(
-                icon: Icons.privacy_tip_outlined,
-                press: () async => Get.to(
-                  AppInfo(
-                    tileAppBar: "الخصوصية",
-                    isRegister: false,
-                    list: await appInfoController.getTream(0),
-                  ),
+          child: SingleChildScrollView(
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    IconButton(
+                        onPressed: () => Get.back(),
+                        icon: const Icon(
+                          Icons.close,
+                          color: ColorManager.white,
+                        )),
+                  ],
                 ),
-                text: "الخصوصية",
-              ),
-              RowTextPress(
-                icon: Icons.factory_outlined,
-                press: () => Get.to(const AboutUs()),
-                text: "من نحن",
-              ),
-              RowTextPress(
-                icon: Icons.contact_emergency_outlined,
-                press: () => Get.to(const MakeAComplaintScreen()),
-                text: "تواصل معنا",
-              ),
-              RowTextPress(
-                icon: Icons.share,
-                press: () async {
-                  // ignore: unused_local_variable
-                  final result = await Share.shareUri(urlGoolePlay);
-                },
-                text: "شارك التطبيق مع اصدقائك",
-              ),
-              RowTextPress(
-                icon: Icons.star,
-                press: () =>
-                    showDialog(context: context, builder: (context) => _dialog),
-                text: "قيم تطبيق تكسي الشكال",
-              ),
-            ],
+                Image.asset(
+                  'lib/asset/images/2.png',
+                  fit: BoxFit.cover,
+                  height: 170,
+                  width: MediaQuery.sizeOf(context).width,
+                ),
+                Text(
+                  authController.user == null ? "" : authController.user!.name,
+                  style: FontManager.w500s22cW,
+                ),
+                RowTextPress(
+                  icon: Icons.account_box,
+                  press: () => Get.to(const UpdateProfile()),
+                  text: "حسابي",
+                ),
+                RowTextPress(
+                  icon: Icons.account_box,
+                  press: () => Get.to(const LoctionScreen()),
+                  text: "العناوين المفضلة",
+                ),
+                RowTextPress(
+                  icon: Icons.trip_origin,
+                  press: () => Get.to(const UserTrip()),
+                  text: "رحلاتي",
+                ),
+                RowTextPress(
+                    icon: Icons.private_connectivity_outlined,
+                    press: () async => Get.to(
+                          AppInfo(
+                            tileAppBar: "شروط الاستخدام",
+                            isRegister: false,
+                            list: await appInfoController.getTream(1),
+                          ),
+                        ),
+                    text: "شروط الاستخدام"),
+                RowTextPress(
+                  icon: Icons.privacy_tip_outlined,
+                  press: () async => Get.to(
+                    AppInfo(
+                      tileAppBar: "الخصوصية",
+                      isRegister: false,
+                      list: await appInfoController.getTream(0),
+                    ),
+                  ),
+                  text: "الخصوصية",
+                ),
+                RowTextPress(
+                  icon: Icons.factory_outlined,
+                  press: () => Get.to(const AboutUs()),
+                  text: "من نحن",
+                ),
+                RowTextPress(
+                  icon: Icons.contact_emergency_outlined,
+                  press: () => Get.to(const MakeAComplaintScreen()),
+                  text: "تواصل معنا",
+                ),
+                RowTextPress(
+                  icon: Icons.share,
+                  press: () async {
+                    // ignore: unused_local_variable
+                    final result = await Share.shareUri(urlGoolePlay);
+                  },
+                  text: "شارك التطبيق مع اصدقائك",
+                ),
+                RowTextPress(
+                  icon: Icons.star,
+                  press: () => showDialog(
+                      context: context, builder: (context) => _dialog),
+                  text: "قيم تطبيق تكسي الشكال",
+                ),
+              ],
+            ),
           ),
         ),
       ),

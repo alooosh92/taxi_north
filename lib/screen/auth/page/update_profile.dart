@@ -30,7 +30,6 @@ class UpdateProfile extends StatelessWidget {
           title: "تعديل الملف الشخصي"),
       body: SingleChildScrollView(
         child: SizedBox(
-          height: MediaQuery.sizeOf(context).height,
           width: MediaQuery.sizeOf(context).width,
           child: Padding(
             padding: const EdgeInsets.all(10),
@@ -55,6 +54,8 @@ class UpdateProfile extends StatelessWidget {
                           Image.asset(
                             'lib/asset/images/1.png',
                             fit: BoxFit.cover,
+                            height: 170,
+                            width: MediaQuery.sizeOf(context).width,
                           ),
                           TextFormFieldRadius(
                             controller: name,
